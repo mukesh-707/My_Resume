@@ -1,0 +1,58 @@
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* Header part */
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(home-office-1207834_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/* horizontal list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 12px 8px 8px 0px;  
+    font-weight: 700;
+
+}
+
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.horizontal-list li a:hover{
+    color:green;
+    border-bottom: 1px solid rgb(252, 0, 0);
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+ font-size: 3rem;
+ letter-spacing: 0.1rem;
+ color: bisque;
+ font-weight: 900;
+ margin-bottom: 0.5rem;
+   
+}
